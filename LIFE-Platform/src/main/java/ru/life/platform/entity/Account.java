@@ -3,12 +3,14 @@ package entity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.time.LocalDate;
 
 @Entity
 @Data
+@AllArgsConstructor
 public class Account {
     @Id
     @GeneratedValue
@@ -18,7 +20,7 @@ public class Account {
 
     private String password;
 
-    private Roles role;
+    //private Roles role;
 
     private String firstName;
 
@@ -28,6 +30,6 @@ public class Account {
 
     private LocalDate birthday;
 
-    private DopInfo idDopInfo;
+    //private DopInfo idDopInfo;
 
 }
