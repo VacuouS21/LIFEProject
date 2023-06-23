@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LIFE-Platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LIFE-Tasks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LIFE-Travel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/UI-Testing" vcs="Git" />
   </component>
 </project>
